@@ -1,0 +1,10 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "XDMrWu",
+  "name": "@oh_compose/harmony_dom",
+  "description": "Harmony dom api for Compose Multiplatform",
+  "main": "Index.ets",
+  "version": "0.1.1",
+  "dependencies": {}
+}

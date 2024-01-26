@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "harmony_dom",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}
