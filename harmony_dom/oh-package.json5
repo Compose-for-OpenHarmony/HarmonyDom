@@ -5,6 +5,6 @@
   "name": "@oh_compose/harmony_dom",
   "description": "Harmony dom api for Compose Multiplatform",
   "main": "Index.ets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {}
 }
