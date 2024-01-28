@@ -43,7 +43,7 @@ export class BaseNode {
     return this.height_string != "" ? this.height_string : this.height
   }
 
-  setPadding(left: number, top: number, right: number, bottom: number) {
+  setPadding(left?: number, top?: number, right?: number, bottom?: number) {
     this.paddingLeft = left
     this.paddingTop = top
     this.paddingRight = right
