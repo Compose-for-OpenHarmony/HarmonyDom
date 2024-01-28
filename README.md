@@ -2,8 +2,6 @@
 
 -------------------------------------------------------------------------------
 
-## Harmony Dom
-
 `Harmony Dom` is a dom api for OpenHarmony Components.
 
 ## Install
