@@ -2,10 +2,12 @@ import { BaseNode } from '../dom/base/BaseNode'
 import { BaseNodeGroup } from '../dom/base/BaseNodeGroup'
 import { ButtonNode } from '../dom/button/ButtonNode'
 import { ColumnNode } from '../dom/column/ColumnNode'
+import { ImageNode } from '../dom/image/ImageNode'
 import { TextNode } from '../dom/text/TextNode'
 import { RowNode } from '../Index'
 import { ButtonBridgeView } from './bridge_view/ButtonBridgeView'
 import { ColumnBridgeView } from './bridge_view/ColumnBridgeView'
+import { ImageBridgeView } from './bridge_view/ImageBridgeView'
 import { RowBridgeView } from './bridge_view/RowBridgeView'
 import { TextBridgeView } from './bridge_view/TextBridgeView'
 
@@ -24,6 +26,8 @@ export function createNode(node: BaseNode) {
     TextBridgeView({ textNode: node })
   } else if (node instanceof ButtonNode) {
     ButtonBridgeView({buttonNode: node})
+  } else if (node instanceof ImageNode) {
+    ImageBridgeView({imageNode: node})
   }
 }
 

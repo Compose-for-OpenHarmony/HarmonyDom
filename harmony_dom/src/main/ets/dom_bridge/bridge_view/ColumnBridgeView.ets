@@ -1,5 +1,4 @@
 import { ColumnNode } from '../../dom/column/ColumnNode'
-import { TextNode } from '../../dom/text/TextNode'
 import { createChildren } from '../DomBridge'
 
 /**

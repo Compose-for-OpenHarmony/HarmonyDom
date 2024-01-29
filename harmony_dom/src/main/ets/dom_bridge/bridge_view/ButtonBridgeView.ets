@@ -1,5 +1,4 @@
 import { ButtonNode } from '../../dom/button/ButtonNode'
-import { TextNode } from '../../dom/text/TextNode'
 
 /**
  * author: wulinpeng

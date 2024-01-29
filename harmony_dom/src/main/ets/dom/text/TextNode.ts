@@ -11,6 +11,9 @@ import { BaseNodeGroup } from '../base/BaseNodeGroup';
 export class TextNode extends BaseNode {
   text: string = ""
   fontStyle: OhFontStyle = OhFontStyle.Normal
+  fontColor: string
+  fontSize: number
+  maxLines: number
   
   setText(text: string): void {
     this.text = text
@@ -18,6 +21,18 @@ export class TextNode extends BaseNode {
 
   setFontStyle(fontStyle: OhFontStyle) {
     this.fontStyle = fontStyle
+  }
+
+  setFontColor(fontColor: string) {
+    this.fontColor = fontColor
+  }
+
+  setFontSize(fontSize: number) {
+    this.fontSize = fontSize
+  }
+
+  setMaxLines(maxLines: number) {
+    this.maxLines = maxLines
   }
 }
 

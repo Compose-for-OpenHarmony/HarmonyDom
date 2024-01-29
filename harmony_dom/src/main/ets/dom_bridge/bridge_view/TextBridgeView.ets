@@ -13,6 +13,9 @@ export struct TextBridgeView {
   build() {
     Text(this.textNode.text)
       .fontStyle(this.convertFontStyle(this.textNode.fontStyle))
+      .fontColor(this.textNode.fontColor)
+      .fontSize(this.textNode.fontSize)
+      .maxLines(this.textNode.maxLines)
       .padding(this.textNode.getPadding())
       .width(this.textNode.getWidth())
       .height(this.textNode.getHeight())
