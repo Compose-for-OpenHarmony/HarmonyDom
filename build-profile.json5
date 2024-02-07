@@ -1,6 +1,19 @@
 {
   "app": {
     "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/wulinpeng/.ohos/config/auto_debug_HarmonyDom_com.wulinpeng.myapplication_30086000725119049.cer",
+          "storePassword": "000000194A0B117DCE3FA41556C5F3F4B35E36DD7EA3C77D120EF0C88C3F559E1553FA5307A322A20D",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001930A1173F15D183680BF7FA485C9FC4F638355F39ED81BC45A476D453798E41934AE7B0C715",
+          "profile": "/Users/wulinpeng/.ohos/config/auto_debug_HarmonyDom_com.wulinpeng.myapplication_30086000725119049.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/wulinpeng/.ohos/config/auto_debug_HarmonyDom_com.wulinpeng.myapplication_30086000725119049.p12"
+        }
+      }
     ],
     "products": [
       {

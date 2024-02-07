@@ -1,31 +1,17 @@
-import { BaseNode, ButtonNode, ColumnNode, createNode, TextNode } from '@oh_compose/harmony_dom';
+import { BaseNode, createNode } from '@oh_compose/harmony_dom';
+import { CounterDemo } from '../kotlin/compose-ez-ui-sample-counter';
+import { WBCard } from '../weibo/WBCard';
 
 @Entry
 @Component
 struct Index {
-
-  createDomNode(): BaseNode {
-    let rootNode = new ColumnNode()
-
-    let text = new TextNode()
-    text.setText("0")
-
-    let button = new ButtonNode()
-    button.setText("Add")
-    button.onClick(() => {
-      let currentCount = Number.parseInt(text.text)
-      text.setText(`${currentCount + 1}`)
-    })
-
-    rootNode.insert(0, button)
-    rootNode.insert(1, text)
-
-    return rootNode
-  }
+  @State message: string = 'Hello World';
+  private node: BaseNode = new CounterDemo().createCounterNode()
 
   build() {
     Stack() {
-      createNode(this.createDomNode())
+      createNode(this.node)
+      // WBCard()
     }
   }
 }
