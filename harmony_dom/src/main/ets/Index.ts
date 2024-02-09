@@ -5,6 +5,6 @@ import { ColumnNode } from './dom/column/ColumnNode'
 import { FrameCallback } from './dom/FrameCallback'
 import { ImageNode } from './dom/image/ImageNode'
 import { RowNode } from './dom/row/RowNode'
-import { OhFontStyle, TextNode } from './dom/text/TextNode'
+import { OhFontStyle, OhTextSpan, TextNode } from './dom/text/TextNode'
 
-export {BaseNode, BaseNodeGroup, ColumnNode, RowNode, TextNode, ButtonNode, FrameCallback, OhFontStyle, ImageNode}
+export {BaseNode, BaseNodeGroup, ColumnNode, RowNode, TextNode, ButtonNode, FrameCallback, OhFontStyle, ImageNode, OhTextSpan}

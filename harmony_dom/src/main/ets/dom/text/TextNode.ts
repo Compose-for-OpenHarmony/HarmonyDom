@@ -14,7 +14,8 @@ export class TextNode extends BaseNode {
   fontColor: string
   fontSize: number
   maxLines: number
-  
+  spans: OhTextSpan[] = []
+
   setText(text: string): void {
     this.text = text
   }
@@ -34,8 +35,20 @@ export class TextNode extends BaseNode {
   setMaxLines(maxLines: number) {
     this.maxLines = maxLines
   }
+
+  setSpans(spans: OhTextSpan[]) {
+    this.spans = spans
+  }
 }
 
 export enum OhFontStyle {
   Normal, Italic
+}
+
+export class OhTextSpan {
+  startIndex: number
+  endIndex: number
+  fontColor: string
+  fontSize: number
+  fontStyle: OhFontStyle
 }

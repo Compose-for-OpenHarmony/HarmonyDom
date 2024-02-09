@@ -1,11 +1,12 @@
 # Changelog
-## [0.1.3] 2024-01-29
+## [0.1.3] 2024-02-09
 New:
 - Support `Image`
 - Support attributes for `Text`:
   * `fontSize`
   * `fontColor`
   * `maxLines`
+  * `spans`
 ## [0.1.2] 2024-01-27
 New:
 - Support `Column` and `Row`

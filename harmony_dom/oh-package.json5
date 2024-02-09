@@ -3,7 +3,7 @@
   "devDependencies": {},
   "author": "XDMrWu",
   "name": "@oh_compose/harmony_dom",
-  "description": "Harmony dom api for Compose Multiplatform",
+  "description": "Harmony dom api",
   "main": "Index.ets",
   "version": "0.1.3",
   "dependencies": {}

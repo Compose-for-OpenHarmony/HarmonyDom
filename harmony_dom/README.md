@@ -12,7 +12,7 @@
 {
   // ...
   "dependencies": {
-    "oh_compose/harmony_dom": "0.1.2"
+    "oh_compose/harmony_dom": "0.1.3"
   }
 }
 ```
