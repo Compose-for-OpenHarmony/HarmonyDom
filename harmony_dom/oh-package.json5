@@ -3,7 +3,7 @@
   "devDependencies": {},
   "author": "XDMrWu",
   "name": "@oh_compose/harmony_dom",
-  "description": "Harmony dom api",
+  "description": "Dom api for ArkUI in OpenHarmony",
   "main": "Index.ets",
   "version": "0.1.3",
   "dependencies": {}
