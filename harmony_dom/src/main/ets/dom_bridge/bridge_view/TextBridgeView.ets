@@ -30,6 +30,7 @@ export struct TextBridgeView {
     .width(this.textNode.getWidth())
     .height(this.textNode.getHeight())
     .layoutWeight(this.textNode.layoutWeight)
+    .textAlign(TextAlign.Start)
   }
 
   private convertFontStyle(fontStyle: OhFontStyle): FontStyle {

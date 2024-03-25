@@ -18,5 +18,7 @@ export struct ColumnBridgeView {
     .width(this.columnNode.getWidth())
     .height(this.columnNode.getHeight())
     .layoutWeight(this.columnNode.layoutWeight)
+    .alignItems(HorizontalAlign.Start)
+    .align(Alignment.Start)
   }
 }
