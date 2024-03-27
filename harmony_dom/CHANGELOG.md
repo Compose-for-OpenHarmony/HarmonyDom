@@ -1,4 +1,9 @@
 # Changelog
+## [0.1.5] 2024-03-25
+New:
+- Support `Divider`
+- Support attributes for `Text`:
+  * `textCenter`
 ## [0.1.4] 2024-03-25
 New:
 - Support `List`
