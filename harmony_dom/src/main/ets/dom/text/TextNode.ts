@@ -15,6 +15,7 @@ export class TextNode extends BaseNode {
   fontSize: number
   maxLines: number
   spans: OhTextSpan[] = []
+  textCenter: boolean = false
 
   setText(text: string): void {
     this.text = text
@@ -38,6 +39,10 @@ export class TextNode extends BaseNode {
 
   setSpans(spans: OhTextSpan[]) {
     this.spans = spans
+  }
+
+  setTextCenter(center: boolean) {
+    this.textCenter = center
   }
 }
 
