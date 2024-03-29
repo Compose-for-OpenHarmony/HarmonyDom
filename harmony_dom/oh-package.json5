@@ -5,6 +5,6 @@
   "name": "@oh_compose/harmony_dom",
   "description": "Dom api for ArkUI in OpenHarmony",
   "main": "Index.ets",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "dependencies": {}
 }

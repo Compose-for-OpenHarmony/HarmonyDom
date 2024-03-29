@@ -12,7 +12,7 @@
 {
   // ...
   "dependencies": {
-    "oh_compose/harmony_dom": "0.1.5"
+    "oh_compose/harmony_dom": "0.1.6"
   }
 }
 ```
@@ -46,7 +46,7 @@ struct Index {
 
   build() {
     Stack() {
-      createNode(this.createDomNode())
+      createUIFromNode(this.createDomNode())
     }
   }
 }

@@ -20,7 +20,7 @@ import { TextBridgeView } from './bridge_view/TextBridgeView'
  * desc: Bridge of Dom and Component
  */
 @Builder
-export function createNode(node: BaseNode) {
+export function createUIFromNode(node: BaseNode) {
   if (node instanceof ColumnNode) {
     ColumnBridgeView({columnNode: node})
   } else if (node instanceof RowNode) {
@@ -41,7 +41,7 @@ export function createNode(node: BaseNode) {
 @Builder
 export function createChildren(node: BaseNodeGroup) {
   LazyForEach(node, (item: BaseNode, index: number) => {
-    createNode(item)
+    createUIFromNode(item)
   }, (item: BaseNode, index: number) => {
     return item.id
   })

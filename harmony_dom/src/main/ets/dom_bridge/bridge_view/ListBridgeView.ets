@@ -1,6 +1,6 @@
 import { ListNode } from '../../dom/list/ListNode'
 import { BaseNode } from '../../Index'
-import { createChildren, createNode } from '../DomBridge'
+import { createChildren, createUIFromNode } from '../DomBridge'
 
 /**
  * author: wulinpeng
@@ -15,7 +15,7 @@ export struct ListBridgeView {
     List() {
       LazyForEach(this.listNode, (item: BaseNode, index: number) => {
         ListItem() {
-          createNode(item)
+          createUIFromNode(item)
         }
       }, (item: BaseNode, index: number) => {
         return item.id

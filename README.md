@@ -2,6 +2,8 @@
 
 -------------------------------------------------------------------------------
 
+## Harmony Dom
+
 `Harmony Dom` is a dom api for OpenHarmony Components.
 
 ## Install
@@ -10,7 +12,7 @@
 {
   // ...
   "dependencies": {
-    "oh_compose/harmony_dom": "0.1.2"
+    "oh_compose/harmony_dom": "0.1.6"
   }
 }
 ```
@@ -44,7 +46,7 @@ struct Index {
 
   build() {
     Stack() {
-      createNode(this.createDomNode())
+      createUIFromNode(this.createDomNode())
     }
   }
 }
